@@ -881,25 +881,39 @@ section
 8. Buttons
 *********************************/
 
-.button
-{
-	cursor: pointer;
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
-.button:hover
-{
-	box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
 }
-.button a
-{
-	font-size: 14px;
-	line-height: 48px;
-	font-weight: 700;
-	text-transform: uppercase;
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
 }
-.button_1
-{
-	width: 202px;
-	height: 48px;
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
 }
 
 /*********************************
